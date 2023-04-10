@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search Results</title>
+  </head>
+  <body>
+    <h1>Search Results for "{{ query }}"</h1>
+    <table>
+      <tr>
+        <th>Website</th>
+        <th>Model</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Flipkart</td>
+        <td>{{ flipkart_model }}</td>
+        <td>{{ flipkart_price }}</td>
+      </tr>
+      <tr>
+        <td>Amazon</td>
+        <td>{{ amazon_model }}</td>
+        <td>{{ amazon_price }}</td>
+      </tr>
+    </table>
+    <h2>{{ better_price }} has the better price!</h2>
+  </body>
+</html>

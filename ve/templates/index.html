@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -29,4 +29,21 @@
     </main>
     
 </body>
+</html> -->
+
+
+<!doctype html>
+<html>
+  <head>
+    <title>Selenium Price Comparison</title>
+    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}"> -->
+    <link ref="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Selenium Price Comparison</h1>
+    <form action="/search" method="post">
+      <input type="text" name="query" id="query">
+      <button type="submit">Search</button>
+    </form>
+  </body>
 </html>
